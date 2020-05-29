@@ -43,6 +43,22 @@ class Especie
     const BB_CHEQUE = 1;
     const BB_DUPLICATA_MERCANTIL = 2;
     const BB_DUPLICATA_DE_SERVICO = 4;
+    
+    //Santander
+    const SD_DUPLICATA_MERCANTIL = 2; //DM
+    const SD_DUPLICATA_DE_SERVICO = 4; //DS
+    const SD_LETRA_DE_CAMBIO_353 = 7; //LC
+    const SD_LETRA_DE_CAMBIO_008 = 30; //LC
+    const SD_NOTA_PROMISSORIA = 12; //NP
+    const SD_NOTA_PROMISSORIA_RURAL = 13; //NPR
+    const SD_RECIBO = 17; //RC
+    const SD_FATURA = 18; //FAT
+    const SD_APOLICE_DE_SEGURO = 20; //AP
+    const SD_CEDULA_DE_PRODUTO_RURAL = 25;
+    const SD_BOLETO_CARTAO_DE_CREDITO = 31; //BCC Nota C078
+    const SD_BOLETO_DE_PROPOSTA = 32; //BDP
+    const SD_CHEQUE = 97; //CH
+    const SD_NOTA_PROMISSORIA_DIRETA = 98; //ND
 
     const CNAB240_OUTROS = '99';
 }
